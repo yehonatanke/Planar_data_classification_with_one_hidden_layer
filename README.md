@@ -86,6 +86,6 @@ Please note that while the code structure has been extensively modified, the cor
 
 This program is released under the [MIT License](https://github.com/yehonatanke/Planar_data_classification_with_one_hidden_layer/blob/main/LICENSE).
 
-### Author
+## Author
 
 yehonataKe
