@@ -2,6 +2,13 @@
 
 This Python program implements a simple neural network to classify planar data with one hidden layer. The overall methodology involves defining the neural network structure, initializing parameters, and performing iterative steps of forward propagation, loss computation, backward propagation for gradients, and parameter updates using gradient descent.
 
+## Features
+- **Dataset Handling:** Loads a planar dataset, separating features and labels using the `load_planar_dataset` function.
+
+- **Visualization and Baseline:** Utilizes matplotlib to create a scatter plot of the dataset, trains a logistic regression classifier, and plots the decision boundary for baseline comparison.
+
+- **Neural Network Modeling:** Defines and trains a neural network model with a hidden layer, visualizing its decision boundary and printing accuracy, offering flexibility for experimentation with different hidden layer sizes.
+
 ## Steps:
 
 1. **Load Dataset:**
@@ -58,3 +65,27 @@ hidden_layer_sizes = [1, 2, 3, 4, 5, 20, 50]
 for i, n_h in enumerate(hidden_layer_sizes):
 # ...
 ```
+
+## Acknowledgments
+
+This project is based on the materials provided in the 'Deep Learning Specialization' course on Coursera. The foundational concepts, logic, and inspiration for this project are derived from the course materials created by the DeepLearning.AI team.
+
+#### Attribution
+
+Course: [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning) 
+
+Instructor: Andrew Ng 
+
+Platform: [Coursera](https://www.coursera.org)
+
+Host: [DeepLearning.AI](https://www.deeplearning.ai)
+
+Please note that while the code structure has been extensively modified, the core ideas and problem-solving approach are based on the educational content provided in the course.
+
+## License
+
+This program is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+### Author
+
+yehonataKe
