@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/language-Python-%233776AB.svg?logo=python">
+  <img src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
+     <img src="https://img.shields.io/badge/uses-neural%20network-%232A2F3D.svg">
+
+</div>
+
+
 # Planar Data Classification with One Hidden Layer
 
 This Python program implements a simple neural network to classify planar data with one hidden layer. The overall methodology involves defining the neural network structure, initializing parameters, and performing iterative steps of forward propagation, loss computation, backward propagation for gradients, and parameter updates using gradient descent.
